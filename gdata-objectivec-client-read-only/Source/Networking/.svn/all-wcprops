@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/707/trunk/Source/Networking
+END
+GDataProgressMonitorInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/673/trunk/Source/Networking/GDataProgressMonitorInputStream.h
+END
+GDataProgressMonitorInputStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/649/trunk/Source/Networking/GDataProgressMonitorInputStream.m
+END
+GDataAuthenticationFetcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/649/trunk/Source/Networking/GDataAuthenticationFetcher.h
+END
+GDataServerError.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/619/trunk/Source/Networking/GDataServerError.h
+END
+GDataServerError.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/649/trunk/Source/Networking/GDataServerError.m
+END
+GDataAuthenticationFetcher.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/649/trunk/Source/Networking/GDataAuthenticationFetcher.m
+END

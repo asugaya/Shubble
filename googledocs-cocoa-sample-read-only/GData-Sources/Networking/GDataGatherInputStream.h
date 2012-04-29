@@ -33,7 +33,7 @@
  #define GDATA_NSSTREAM_DELEGATE
 #endif
 
-@interface GDataGatherInputStream : NSInputStream GDATA_NSSTREAM_DELEGATE {
+@interface GDataGatherInputStream : NSInputStream GDATA_NSSTREAM_DELEGATE <NSStreamDelegate> {
   
   NSArray* dataArray_;   // NSDatas that should be "gathered" and streamed.
   NSUInteger arrayIndex_;       // Index in the array of the current NSData.

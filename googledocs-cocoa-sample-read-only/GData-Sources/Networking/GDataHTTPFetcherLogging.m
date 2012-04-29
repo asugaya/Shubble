@@ -18,6 +18,7 @@
 
 #import "GDataProgressMonitorInputStream.h"
 
+
 // If logging isn't being stripped, make sure we have all the defines from
 // GDataDefines.h
 #if !STRIP_GDATA_FETCH_LOGGING
@@ -201,7 +202,7 @@ static NSString* gLoggingProcessName = nil;
 // formattedStringFromData returns a prettyprinted string for XML input,
 // and a plain string for other input data
 - (NSString *)formattedStringFromData:(NSData *)inputData {
-
+/*
 #if (!GDATA_FOUNDATION_ONLY || TARGET_IPHONE_SIMULATOR) && !GDATA_SKIP_LOG_XMLFORMAT
   // verify that this data starts with the bytes indicating XML
 
@@ -252,6 +253,7 @@ static NSString* gLoggingProcessName = nil;
 #else
   // we can't call external tasks on the iPhone; leave the XML unformatted
 #endif
+*/
 
   NSString *dataStr = [[[NSString alloc] initWithData:inputData
                                              encoding:NSUTF8StringEncoding] autorelease];

@@ -36,7 +36,7 @@ static AssertHandler *s_asserthandler = nil;
 int AssertProc(const char pszCondition[], const char pszFunction[], const char pszFile[], long line)
 {
 	NSString *str = [NSString stringWithFormat:@"Assert failed %s %s(%d): %s", pszFunction, pszFile, line, pszCondition];
-	NSLog(str);
+	NSLog(@"%@", str);
 	
 	if (s_asserthandler == nil)
 		s_asserthandler = [[AssertHandler alloc] init];

@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/722/trunk/Source/Clients/Docs
+END
+GDataDocs.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/718/trunk/Source/Clients/Docs/GDataDocs.h
+END
+GDataEntryPresentationDoc.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/305/trunk/Source/Clients/Docs/GDataEntryPresentationDoc.m
+END
+GDataFeedDocList.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/452/trunk/Source/Clients/Docs/GDataFeedDocList.m
+END
+GDataEntryDocChange.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/680/trunk/Source/Clients/Docs/GDataEntryDocChange.h
+END
+GDataEntryTableDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/718/trunk/Source/Clients/Docs/GDataEntryTableDoc.h
+END
+GDataEntryDocChange.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/680/trunk/Source/Clients/Docs/GDataEntryDocChange.m
+END
+GDataDocElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/683/trunk/Source/Clients/Docs/GDataDocElements.h
+END
+GDataEntryTableDoc.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/718/trunk/Source/Clients/Docs/GDataEntryTableDoc.m
+END
+GDataServiceGoogleDocs.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/680/trunk/Source/Clients/Docs/GDataServiceGoogleDocs.h
+END
+GDataDocElements.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/683/trunk/Source/Clients/Docs/GDataDocElements.m
+END
+GDataFeedDocRevision.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/319/trunk/Source/Clients/Docs/GDataFeedDocRevision.h
+END
+GDataServiceGoogleDocs.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/680/trunk/Source/Clients/Docs/GDataServiceGoogleDocs.m
+END
+GDataFeedDocRevision.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/452/trunk/Source/Clients/Docs/GDataFeedDocRevision.m
+END
+GDataQueryDocs.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/664/trunk/Source/Clients/Docs/GDataQueryDocs.h
+END
+GDataEntryPDFDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/305/trunk/Source/Clients/Docs/GDataEntryPDFDoc.h
+END
+GDataEntryFolderDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/305/trunk/Source/Clients/Docs/GDataEntryFolderDoc.h
+END
+GDataDocTransferFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/432/trunk/Source/Clients/Docs/GDataDocTransferFormat.h
+END
+GDataQueryDocs.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/672/trunk/Source/Clients/Docs/GDataQueryDocs.m
+END
+GDataEntryDocListMetadata.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/683/trunk/Source/Clients/Docs/GDataEntryDocListMetadata.h
+END
+GDataEntryPDFDoc.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/305/trunk/Source/Clients/Docs/GDataEntryPDFDoc.m
+END
+GDataEntryFileDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/357/trunk/Source/Clients/Docs/GDataEntryFileDoc.h
+END
+GDataDocTransferFormat.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/432/trunk/Source/Clients/Docs/GDataDocTransferFormat.m
+END
+GDataEntryFolderDoc.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/305/trunk/Source/Clients/Docs/GDataEntryFolderDoc.m
+END
+GDataEntryDocListMetadata.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/683/trunk/Source/Clients/Docs/GDataEntryDocListMetadata.m
+END
+GDataEntryFileDoc.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/357/trunk/Source/Clients/Docs/GDataEntryFileDoc.m
+END
+GDataFeedDocChange.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/680/trunk/Source/Clients/Docs/GDataFeedDocChange.h
+END
+GDataDocConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/718/trunk/Source/Clients/Docs/GDataDocConstants.h
+END
+GDataEntryDrawingDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/593/trunk/Source/Clients/Docs/GDataEntryDrawingDoc.h
+END
+GDataFeedDocChange.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/718/trunk/Source/Clients/Docs/GDataFeedDocChange.m
+END
+GDataEntryDocRevision.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/418/trunk/Source/Clients/Docs/GDataEntryDocRevision.h
+END
+GDataDocConstants.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/319/trunk/Source/Clients/Docs/GDataDocConstants.m
+END
+GDataEntryStandardDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Docs/GDataEntryStandardDoc.h
+END
+GDataEntryDrawingDoc.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/593/trunk/Source/Clients/Docs/GDataEntryDrawingDoc.m
+END
+GDataDocMaxUploadSize.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/432/trunk/Source/Clients/Docs/GDataDocMaxUploadSize.h
+END
+GDataEntryDocRevision.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/672/trunk/Source/Clients/Docs/GDataEntryDocRevision.m
+END
+GDataEntrySiteDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/716/trunk/Source/Clients/Docs/GDataEntrySiteDoc.h
+END
+GDataEntryStandardDoc.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/305/trunk/Source/Clients/Docs/GDataEntryStandardDoc.m
+END
+GDataEntrySpreadsheetDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Docs/GDataEntrySpreadsheetDoc.h
+END
+GDataDocMaxUploadSize.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/432/trunk/Source/Clients/Docs/GDataDocMaxUploadSize.m
+END
+GDataEntrySiteDoc.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/716/trunk/Source/Clients/Docs/GDataEntrySiteDoc.m
+END
+GDataDocFeature.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/432/trunk/Source/Clients/Docs/GDataDocFeature.h
+END
+GDataEntryDocBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/722/trunk/Source/Clients/Docs/GDataEntryDocBase.h
+END
+GDataEntryPresentationDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/305/trunk/Source/Clients/Docs/GDataEntryPresentationDoc.h
+END
+GDataEntrySpreadsheetDoc.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/305/trunk/Source/Clients/Docs/GDataEntrySpreadsheetDoc.m
+END
+GDataFeedDocList.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/305/trunk/Source/Clients/Docs/GDataFeedDocList.h
+END
+GDataDocFeature.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/619/trunk/Source/Clients/Docs/GDataDocFeature.m
+END
+GDataEntryDocBase.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/722/trunk/Source/Clients/Docs/GDataEntryDocBase.m
+END

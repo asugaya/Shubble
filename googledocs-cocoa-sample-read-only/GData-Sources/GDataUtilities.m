@@ -63,10 +63,10 @@
     // control characters
     NSMutableString *mutableStr = [NSMutableString stringWithString:str];  
     while (range.location != NSNotFound) {
-      
+      /*
       GDATA_DEBUG_LOG(@"GDataObject: Removing char 0x%lx from XML element string \"%@\"", 
             [mutableStr characterAtIndex:range.location], str);
-
+*/
       [mutableStr deleteCharactersInRange:range];
       
       range = [mutableStr rangeOfCharacterFromSet:filterChars]; 
