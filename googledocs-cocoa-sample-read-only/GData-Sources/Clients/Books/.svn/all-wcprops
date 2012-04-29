@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/218/trunk/Source/Clients/Books
+END
+GDataQueryBooks.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/155/trunk/Source/Clients/Books/GDataQueryBooks.m
+END
+GDataEntryVolume.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/211/trunk/Source/Clients/Books/GDataEntryVolume.h
+END
+GDataDublinCore.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/151/trunk/Source/Clients/Books/GDataDublinCore.m
+END
+GDataFeedVolume.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/151/trunk/Source/Clients/Books/GDataFeedVolume.h
+END
+GDataServiceGoogleBooks.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/216/trunk/Source/Clients/Books/GDataServiceGoogleBooks.h
+END
+GDataBooks.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/151/trunk/Source/Clients/Books/GDataBooks.h
+END
+GDataEntryVolume.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/218/trunk/Source/Clients/Books/GDataEntryVolume.m
+END
+GDataServiceGoogleBooks.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/173/trunk/Source/Clients/Books/GDataServiceGoogleBooks.m
+END
+GDataFeedVolume.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/217/trunk/Source/Clients/Books/GDataFeedVolume.m
+END
+GDataQueryBooks.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/216/trunk/Source/Clients/Books/GDataQueryBooks.h
+END
+GDataDublinCore.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/216/trunk/Source/Clients/Books/GDataDublinCore.h
+END

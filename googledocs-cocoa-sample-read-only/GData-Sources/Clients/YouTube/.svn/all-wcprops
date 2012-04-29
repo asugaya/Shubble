@@ -1,0 +1,419 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube
+END
+GDataEntryYouTubeRating.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/218/trunk/Source/Clients/YouTube/GDataEntryYouTubeRating.m
+END
+GDataYouTubeElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/164/trunk/Source/Clients/YouTube/GDataYouTubeElements.h
+END
+GDataFeedYouTubeSubscription.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/217/trunk/Source/Clients/YouTube/GDataFeedYouTubeSubscription.m
+END
+GDataYouTubeElements.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/164/trunk/Source/Clients/YouTube/GDataYouTubeElements.m
+END
+GDataFeedYouTubeUserProfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataFeedYouTubeUserProfile.h
+END
+GDataFeedYouTubeComment.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataFeedYouTubeComment.h
+END
+GDataFeedYouTubeUserProfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/217/trunk/Source/Clients/YouTube/GDataFeedYouTubeUserProfile.m
+END
+GDataEntryYouTubeFriend.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataEntryYouTubeFriend.h
+END
+GDataYouTubeStatistics.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/131/trunk/Source/Clients/YouTube/GDataYouTubeStatistics.h
+END
+GDataFeedYouTubeComment.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/217/trunk/Source/Clients/YouTube/GDataFeedYouTubeComment.m
+END
+GDataFeedYouTubeChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataFeedYouTubeChannel.h
+END
+GDataEntryYouTubeVideoMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/157/trunk/Source/Clients/YouTube/GDataEntryYouTubeVideoMessage.h
+END
+GDataEntryYouTubeFriend.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/218/trunk/Source/Clients/YouTube/GDataEntryYouTubeFriend.m
+END
+GDataYouTubeStatistics.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/131/trunk/Source/Clients/YouTube/GDataYouTubeStatistics.m
+END
+GDataEntryYouTubeFavorite.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/157/trunk/Source/Clients/YouTube/GDataEntryYouTubeFavorite.h
+END
+GDataFeedYouTubeChannel.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataFeedYouTubeChannel.m
+END
+GDataEntryYouTubeVideoMessage.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/218/trunk/Source/Clients/YouTube/GDataEntryYouTubeVideoMessage.m
+END
+GDataEntryYouTubeFavorite.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/217/trunk/Source/Clients/YouTube/GDataEntryYouTubeFavorite.m
+END
+GDataFeedYouTubeRating.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataFeedYouTubeRating.h
+END
+GDataFeedYouTubeComplaint.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataFeedYouTubeComplaint.h
+END
+GDataYouTubeMediaElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/216/trunk/Source/Clients/YouTube/GDataYouTubeMediaElements.h
+END
+GDataFeedYouTubeRating.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/217/trunk/Source/Clients/YouTube/GDataFeedYouTubeRating.m
+END
+GDataFeedYouTubeComplaint.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/217/trunk/Source/Clients/YouTube/GDataFeedYouTubeComplaint.m
+END
+GDataYouTube.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataYouTube.h
+END
+GDataEntryYouTubeUserProfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataEntryYouTubeUserProfile.h
+END
+GDataYouTubeMediaElements.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/228/trunk/Source/Clients/YouTube/GDataYouTubeMediaElements.m
+END
+GDataEntryYouTubePlaylist.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/157/trunk/Source/Clients/YouTube/GDataEntryYouTubePlaylist.h
+END
+GDataEntryYouTubeComment.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/164/trunk/Source/Clients/YouTube/GDataEntryYouTubeComment.h
+END
+GDataEntryYouTubeUserProfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataEntryYouTubeUserProfile.m
+END
+GDataEntryYouTubePlaylist.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/218/trunk/Source/Clients/YouTube/GDataEntryYouTubePlaylist.m
+END
+GDataEntryYouTubeComment.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/218/trunk/Source/Clients/YouTube/GDataEntryYouTubeComment.m
+END
+GDataEntryYouTubeChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataEntryYouTubeChannel.h
+END
+GDataFeedYouTubeVideo.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataFeedYouTubeVideo.h
+END
+GDataFeedYouTubeFriend.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataFeedYouTubeFriend.h
+END
+GDataFeedYouTubeVideo.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/217/trunk/Source/Clients/YouTube/GDataFeedYouTubeVideo.m
+END
+GDataFeedYouTubeVideoMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataFeedYouTubeVideoMessage.h
+END
+GDataEntryYouTubeChannel.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataEntryYouTubeChannel.m
+END
+GDataFeedYouTubeFriend.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/217/trunk/Source/Clients/YouTube/GDataFeedYouTubeFriend.m
+END
+GDataEntryYouTubePlaylistLink.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataEntryYouTubePlaylistLink.h
+END
+GDataFeedYouTubeFavorite.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/157/trunk/Source/Clients/YouTube/GDataFeedYouTubeFavorite.h
+END
+GDataFeedYouTubeVideoMessage.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/217/trunk/Source/Clients/YouTube/GDataFeedYouTubeVideoMessage.m
+END
+GDataFeedYouTubeUserEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataFeedYouTubeUserEvent.h
+END
+GDataEntryYouTubePlaylistLink.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/218/trunk/Source/Clients/YouTube/GDataEntryYouTubePlaylistLink.m
+END
+GDataEntryYouTubeUpload.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataEntryYouTubeUpload.h
+END
+GDataFeedYouTubeFavorite.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/217/trunk/Source/Clients/YouTube/GDataFeedYouTubeFavorite.m
+END
+GDataEntryYouTubeComplaint.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataEntryYouTubeComplaint.h
+END
+GDataFeedYouTubeUserEvent.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataFeedYouTubeUserEvent.m
+END
+GDataYouTubePublicationState.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/131/trunk/Source/Clients/YouTube/GDataYouTubePublicationState.h
+END
+GDataEntryYouTubeUpload.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/218/trunk/Source/Clients/YouTube/GDataEntryYouTubeUpload.m
+END
+GDataEntryYouTubeComplaint.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/217/trunk/Source/Clients/YouTube/GDataEntryYouTubeComplaint.m
+END
+GDataYouTubePublicationState.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/131/trunk/Source/Clients/YouTube/GDataYouTubePublicationState.m
+END
+GDataFeedYouTubePlaylist.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataFeedYouTubePlaylist.h
+END
+GDataEntryYouTubeVideo.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataEntryYouTubeVideo.h
+END
+GDataFeedYouTubePlaylist.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataFeedYouTubePlaylist.m
+END
+GDataEntryYouTubeVideo.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/218/trunk/Source/Clients/YouTube/GDataEntryYouTubeVideo.m
+END
+GDataEntryYouTubeFeedLinkBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataEntryYouTubeFeedLinkBase.h
+END
+GDataEntryYouTubeUserEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataEntryYouTubeUserEvent.h
+END
+GDataFeedYouTubePlaylistLink.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataFeedYouTubePlaylistLink.h
+END
+GDataEntryYouTubeFeedLinkBase.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataEntryYouTubeFeedLinkBase.m
+END
+GDataEntryYouTubeSubscription.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataEntryYouTubeSubscription.h
+END
+GDataEntryYouTubeUserEvent.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataEntryYouTubeUserEvent.m
+END
+GDataFeedYouTubePlaylistLink.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/217/trunk/Source/Clients/YouTube/GDataFeedYouTubePlaylistLink.m
+END
+GDataEntryYouTubeSubscription.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataEntryYouTubeSubscription.m
+END
+GDataServiceGoogleYouTube.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataServiceGoogleYouTube.h
+END
+GDataServiceGoogleYouTube.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/237/trunk/Source/Clients/YouTube/GDataServiceGoogleYouTube.m
+END
+GDataQueryYouTube.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/216/trunk/Source/Clients/YouTube/GDataQueryYouTube.h
+END
+GDataEntryYouTubeRating.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataEntryYouTubeRating.h
+END
+GDataFeedYouTubeSubscription.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/103/trunk/Source/Clients/YouTube/GDataFeedYouTubeSubscription.h
+END
+GDataQueryYouTube.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/157/trunk/Source/Clients/YouTube/GDataQueryYouTube.m
+END

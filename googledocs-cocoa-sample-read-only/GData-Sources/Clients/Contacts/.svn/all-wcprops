@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/223/trunk/Source/Clients/Contacts
+END
+GDataGroupMembershipInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/134/trunk/Source/Clients/Contacts/GDataGroupMembershipInfo.m
+END
+GDataEntryContactGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/223/trunk/Source/Clients/Contacts/GDataEntryContactGroup.h
+END
+GDataFeedContactGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/167/trunk/Source/Clients/Contacts/GDataFeedContactGroup.h
+END
+GDataEntryContactGroup.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/223/trunk/Source/Clients/Contacts/GDataEntryContactGroup.m
+END
+GDataFeedContactGroup.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/217/trunk/Source/Clients/Contacts/GDataFeedContactGroup.m
+END
+GDataServiceGoogleContact.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/223/trunk/Source/Clients/Contacts/GDataServiceGoogleContact.h
+END
+GDataEntryContact.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/223/trunk/Source/Clients/Contacts/GDataEntryContact.h
+END
+GDataServiceGoogleContact.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/223/trunk/Source/Clients/Contacts/GDataServiceGoogleContact.m
+END
+GDataContacts.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/131/trunk/Source/Clients/Contacts/GDataContacts.h
+END
+GDataFeedContact.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/223/trunk/Source/Clients/Contacts/GDataFeedContact.h
+END
+GDataQueryContact.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/134/trunk/Source/Clients/Contacts/GDataQueryContact.h
+END
+GDataEntryContact.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/223/trunk/Source/Clients/Contacts/GDataEntryContact.m
+END
+GDataGroupMembershipInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/139/trunk/Source/Clients/Contacts/GDataGroupMembershipInfo.h
+END
+GDataFeedContact.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/223/trunk/Source/Clients/Contacts/GDataFeedContact.m
+END
+GDataQueryContact.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/155/trunk/Source/Clients/Contacts/GDataQueryContact.m
+END

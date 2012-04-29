@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/218/trunk/Source/Clients/WebmasterTools
+END
+GDataServiceGoogleWebmasterTools.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/216/trunk/Source/Clients/WebmasterTools/GDataServiceGoogleWebmasterTools.h
+END
+GDataFeedSite.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/139/trunk/Source/Clients/WebmasterTools/GDataFeedSite.h
+END
+GDataEntrySitemap.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/218/trunk/Source/Clients/WebmasterTools/GDataEntrySitemap.m
+END
+GDataSitemapMobile.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/139/trunk/Source/Clients/WebmasterTools/GDataSitemapMobile.h
+END
+GDataFeedSitemap.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/218/trunk/Source/Clients/WebmasterTools/GDataFeedSitemap.m
+END
+GDataEntrySite.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/218/trunk/Source/Clients/WebmasterTools/GDataEntrySite.m
+END
+GDataFeedSite.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/217/trunk/Source/Clients/WebmasterTools/GDataFeedSite.m
+END
+GDataServiceGoogleWebmasterTools.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/173/trunk/Source/Clients/WebmasterTools/GDataServiceGoogleWebmasterTools.m
+END
+GDataSitemapNews.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/139/trunk/Source/Clients/WebmasterTools/GDataSitemapNews.h
+END
+GDataSitemapMobile.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/139/trunk/Source/Clients/WebmasterTools/GDataSitemapMobile.m
+END
+GDataSitemapNews.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/139/trunk/Source/Clients/WebmasterTools/GDataSitemapNews.m
+END
+GDataSiteVerificationMethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/216/trunk/Source/Clients/WebmasterTools/GDataSiteVerificationMethod.h
+END
+GDataWebmasterTools.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/139/trunk/Source/Clients/WebmasterTools/GDataWebmasterTools.h
+END
+GDataSiteVerificationMethod.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/177/trunk/Source/Clients/WebmasterTools/GDataSiteVerificationMethod.m
+END
+GDataEntrySitemap.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/139/trunk/Source/Clients/WebmasterTools/GDataEntrySitemap.h
+END
+GDataFeedSitemap.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/139/trunk/Source/Clients/WebmasterTools/GDataFeedSitemap.h
+END
+GDataEntrySite.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/211/trunk/Source/Clients/WebmasterTools/GDataEntrySite.h
+END

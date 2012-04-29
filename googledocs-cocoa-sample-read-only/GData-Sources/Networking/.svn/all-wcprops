@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/241/trunk/Source/Networking
+END
+GDataProgressMonitorInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/238/trunk/Source/Networking/GDataProgressMonitorInputStream.h
+END
+GDataGatherInputStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/223/trunk/Source/Networking/GDataGatherInputStream.m
+END
+GDataMIMEDocument.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/131/trunk/Source/Networking/GDataMIMEDocument.m
+END
+GDataHTTPFetcherLogging.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/241/trunk/Source/Networking/GDataHTTPFetcherLogging.m
+END
+GDataProgressMonitorInputStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/131/trunk/Source/Networking/GDataProgressMonitorInputStream.m
+END
+GDataHTTPFetcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/234/trunk/Source/Networking/GDataHTTPFetcher.h
+END
+GDataServerError.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/216/trunk/Source/Networking/GDataServerError.h
+END
+GDataServerError.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/235/trunk/Source/Networking/GDataServerError.m
+END
+GDataHTTPFetcher.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/238/trunk/Source/Networking/GDataHTTPFetcher.m
+END
+GDataMIMEDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/161/trunk/Source/Networking/GDataMIMEDocument.h
+END
+GDataGatherInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/238/trunk/Source/Networking/GDataGatherInputStream.h
+END
+GDataHTTPFetcherLogging.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/103/trunk/Source/Networking/GDataHTTPFetcherLogging.h
+END

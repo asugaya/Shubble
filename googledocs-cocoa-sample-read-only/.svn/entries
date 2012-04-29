@@ -1,0 +1,74 @@
+10
+
+dir
+13
+http://googledocs-cocoa-sample.googlecode.com/svn/trunk
+http://googledocs-cocoa-sample.googlecode.com/svn
+
+
+
+2009-03-11T18:40:16.318811Z
+13
+tomsax@mac.com
+has-props
+
+
+svn:externals
+
+
+
+
+
+
+
+
+
+
+b006f152-fd46-11dd-87c9-111d11f6bf44
+
+GoogleDocs.xcodeproj
+dir
+
+Other Sources
+dir
+
+Info.plist
+file
+
+
+
+
+2012-04-29T17:36:58.000000Z
+fd8d6f7c01cc14c6e01f6184572a6ba3
+2009-02-17T23:21:55.432627Z
+2
+tomsax@mac.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+902
+
+Resources
+dir
+
+Classes
+dir
+
