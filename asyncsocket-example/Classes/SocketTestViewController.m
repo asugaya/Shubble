@@ -27,7 +27,7 @@
 	socket = [[AsyncSocket alloc] initWithDelegate:self];
 	[self connect];
     
-    SocketTestViewController *viewController = [[SocketTestViewController alloc] init];
+    //SocketTestViewController *viewController = [[SocketTestViewController alloc] init];
 }
 
 - (void) connectToShubble {
@@ -38,7 +38,7 @@
 #pragma mark -
 
 - (void)connect {
-	[socket connectToHost:@"codebanana.com" onPort:50007 error:nil];
+	[socket connectToHost:@"codebanana.com" onPort:50009 error:nil];
 }
 
 - (void)sendHTTPRequest {
@@ -100,7 +100,7 @@
 	NSString *string = [[NSString alloc] initWithBytes:[data bytes] length:[data length] encoding:NSUTF8StringEncoding];
 	NSLog(@"Received Data (Tag: %i): %@", tag, string);
     
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"www.google.com"]];
+   // [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"www.google.com"]];
     
     NSLog(@"should be opening url");
     //openURL(string);

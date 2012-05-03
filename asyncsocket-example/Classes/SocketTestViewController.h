@@ -13,6 +13,7 @@
 @interface SocketTestViewController : UIViewController {
 	AsyncSocket *socket;
 }
+- (void) connectToShubble;
 
 @end
 
