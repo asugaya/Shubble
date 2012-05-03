@@ -35,6 +35,13 @@ int mode;
 int connected;
 int timerGuy;
 
+int deBounced;
+int zeroCounter;
+float timer1;
+float timer2;
+int peakNum;
+int diffTime;
+
 class AudioInputSampleApp : public AppBase {
  public:
 	void setup();
@@ -57,6 +64,9 @@ void AudioInputSampleApp::setup()
 	//iterate input devices and print their names to the console
     mode = 0;
     connected=0;
+    deBounced=1;
+    zeroCounter=0;
+    peakNum=0;
 	const std::vector<audio::InputDeviceRef>& devices = audio::Input::getDevices();
 	for( std::vector<audio::InputDeviceRef>::const_iterator iter = devices.begin(); iter != devices.end(); ++iter ) {
 		console() << (*iter)->getName() << std::endl;
@@ -151,7 +161,8 @@ void AudioInputSampleApp::draw()
         gl::draw( mTexture, Vec2f( 150,400 ) );
         
         if(connected==0){
-            SocketTestViewController *viewController = [[SocketTestViewController alloc] init];
+            SocketTestViewController *viewController = [[SocketTestViewController alloc] initWithTime:diffTime];
+//             SocketTestViewController *viewController = [[SocketTestViewController alloc] init];
             connected=1;
             mode = 0;
             
@@ -192,18 +203,56 @@ void AudioInputSampleApp::drawWaveForm( float height )
 	for( uint32_t i = startIdx, c = 0; i < endIdx; i++, c++ ) {
 		float y = ( ( leftBuffer->mData[i] - 1 ) * - 100 );
 		line.push_back( Vec2f( ( c * scale ), y ) );
-          
+        
+//        if(y < 70){
+//            console() << "Woah" << std::endl;
+//            console() << y << std::endl;
+//            if(mode == 0){
+//                timerGuy = (int)(getElapsedSeconds());
+//            }
+//            mode = 1;
+//            
+//        }
+
+        
         if(y < 70){
-            console() << "Woah" << std::endl;
-            console() << y << std::endl;
-            if(mode == 0){
+            if(deBounced==1 && peakNum==0){
+                deBounced=0;
+                timer1 = getElapsedSeconds();
                 timerGuy = (int)(getElapsedSeconds());
+                peakNum=1;
+            }else if(deBounced==1 && peakNum==1){
+                deBounced=0;
+                peakNum=0;
+                timer2 = getElapsedSeconds();
+                mode = 1;
+                diffTime = (int)(100*timer2-100*timer1);
+                console() << "DiffTime:" << std::endl;
+                console() << (int)(100*timer2-100*timer1) << std::endl;
+                console() << "---------:" << std::endl;
             }
-            mode = 1;
-            
         }
         
-        if(mode == 1 && (int)(getElapsedSeconds()) - timerGuy > 2){
+        if(deBounced ==0 && y>100){
+            zeroCounter++;
+            
+        }
+        if(zeroCounter==2000){
+            console() << "zerocounter:" << std::endl;
+            console() << zeroCounter << std::endl;
+            deBounced=1;
+            zeroCounter=0;
+        }
+        
+        
+        
+//            console() << "Woah" << std::endl;
+//            console() << y << std::endl;
+        
+
+        
+        
+        if(mode == 1 && (int)(getElapsedSeconds()) - timerGuy > 0){
             mode = 2;
         }
         

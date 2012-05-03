@@ -43,7 +43,7 @@
 #pragma mark -
 
 - (void)connect {
-	[socket connectToHost:@"codebanana.com" onPort:50009 error:nil];
+	[socket connectToHost:@"codebanana.com" onPort:50003 error:nil];
 }
 
 - (void)openShubbleRequest {
