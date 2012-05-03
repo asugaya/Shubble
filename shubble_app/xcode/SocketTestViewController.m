@@ -14,7 +14,6 @@
 - (void)sendHTTPRequest;
 - (void)readWithTag:(long)tag;
 - (void)openShubbleRequest;
-- (void)openURL:(NSString *) string;
 @end
 
 @implementation SocketTestViewController
@@ -22,12 +21,10 @@
 #pragma mark -
 #pragma mark View Lifecycle
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)init {
+//    [super viewDidLoad];
 	socket = [[AsyncSocket alloc] initWithDelegate:self];
 	[self connect];
-    
-    //SocketTestViewController *viewController = [[SocketTestViewController alloc] init];
 }
 
 - (void) connectToShubble {
@@ -100,25 +97,21 @@
 	NSString *string = [[NSString alloc] initWithBytes:[data bytes] length:[data length] encoding:NSUTF8StringEncoding];
 	NSLog(@"Received Data (Tag: %i): %@", tag, string);
     
-   // [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"www.google.com"]];
+    NSString *trimmedString = [string stringByTrimmingCharactersInSet:
+                               [NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    
+    
+    NSURL *url = [NSURL URLWithString:trimmedString];
+    if( ![[UIApplication sharedApplication] openURL:url] )
+        NSLog(@"%@%@",@"Failed to open url:",[url description]);
+
     
     NSLog(@"should be opening url");
     //openURL(string);
     
 	[string release];
-	
-	[self readWithTag:3];
-        
-}
-
-- (void) openURL:(NSString *) string {
-    // Be careful to always URL encode things like spaces and other symbols that aren't URL friendly
-    // Shouldn't need this, Shubble server returns the direct url
-    //string =  [string stringByAddingPercentEscapesUsingEncoding: NSUTF8StringEncoding];
     
-    // An the final magic ... openURL!
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:string]];
-
+	[self readWithTag:3];
 }
 
 - (void)onSocket:(AsyncSocket *)sock didReadPartialDataOfLength:(CFIndex)partialLength tag:(long)tag {
@@ -134,7 +127,7 @@
 
 - (void)dealloc {
 	[socket release];
-	[super dealloc];
+//	[super dealloc];
 }
 
 @end

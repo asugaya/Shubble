@@ -12,6 +12,7 @@
 #include "cinder/gl/Texture.h"
 #include "cinder/app/TouchEvent.h"
 #include "cinder/Font.h"
+#include "SocketTestViewController.h"
 
 #if defined( CINDER_COCOA_TOUCH )
 	#include "cinder/app/AppCocoaTouch.h"
@@ -31,6 +32,7 @@ using namespace ci::app;
 
 gl::Texture	mTexture;
 int mode;
+int connected;
 int timerGuy;
 
 class AudioInputSampleApp : public AppBase {
@@ -54,6 +56,7 @@ void AudioInputSampleApp::setup()
 {
 	//iterate input devices and print their names to the console
     mode = 0;
+    connected=0;
 	const std::vector<audio::InputDeviceRef>& devices = audio::Input::getDevices();
 	for( std::vector<audio::InputDeviceRef>::const_iterator iter = devices.begin(); iter != devices.end(); ++iter ) {
 		console() << (*iter)->getName() << std::endl;
@@ -105,6 +108,7 @@ void AudioInputSampleApp::draw()
     
      //console() << mode << std::endl;
     if(mode == 0){ //say waiting for sound
+        connected=0;
         TextLayout layout;
         layout.clear(ColorA( 0.0f, 0.0f, 0.0f, 0.0f ) );
         layout.setFont( Font( "HelveticaNeue", 89 ) );
@@ -146,9 +150,16 @@ void AudioInputSampleApp::draw()
         mTexture = gl::Texture( rendered );
         gl::draw( mTexture, Vec2f( 150,400 ) );
         
-        NSURL *url = [NSURL URLWithString:@"http://www.stackoverflow.com"];
-        if( ![[UIApplication sharedApplication] openURL:url] )
-            NSLog(@"%@%@",@"Failed to open url:",[url description]);
+        if(connected==0){
+            SocketTestViewController *viewController = [[SocketTestViewController alloc] init];
+            connected=1;
+            mode = 0;
+            
+        }
+        
+//        NSURL *url = [NSURL URLWithString:@"http://www.stackoverflow.com"];
+//        if( ![[UIApplication sharedApplication] openURL:url] )
+//            NSLog(@"%@%@",@"Failed to open url:",[url description]);
 
     }
     
