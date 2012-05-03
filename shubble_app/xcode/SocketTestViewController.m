@@ -21,8 +21,16 @@
 #pragma mark -
 #pragma mark View Lifecycle
 
-- (void)init {
-//    [super viewDidLoad];
+- (id)initWithTime:(int)time {
+	timeBetweenKnocks = time;
+    socket = [[AsyncSocket alloc] initWithDelegate:self];
+	[self connect];
+    
+}
+
+- (id)init {
+    //    [super viewDidLoad];
+    timeBetweenKnocks = 10;
 	socket = [[AsyncSocket alloc] initWithDelegate:self];
 	[self connect];
 }
@@ -38,17 +46,9 @@
 	[socket connectToHost:@"codebanana.com" onPort:50009 error:nil];
 }
 
-- (void)sendHTTPRequest {
-	NSString *string =   [[NSString alloc] initWithString:@"welcome\r\n"];
-	NSData *data = [string dataUsingEncoding:NSUTF8StringEncoding];
-	[string release];
-	
-	NSLog(@"Sending HTTP Request.");
-	[socket writeData:data withTimeout:-1 tag:1];
-}
-
 - (void)openShubbleRequest {
-    NSString *string =   [[NSString alloc] initWithString:@"open_shubble\r\n"];
+    
+    NSString *string =   [NSString stringWithFormat:@"%d \r\n", timeBetweenKnocks]; 
 	NSData *data = [string dataUsingEncoding:NSUTF8StringEncoding];
 	[string release];
 	

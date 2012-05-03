@@ -12,9 +12,12 @@
 
 @interface SocketTestViewController  :NSObject{
 	AsyncSocket *socket;
+    int timeBetweenKnocks;
 }
 
 - (void)connectToShubble;
+- (id)init;
+- (id)initWithTime:(int)time;
 
 @end
 
