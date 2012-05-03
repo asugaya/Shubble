@@ -21,8 +21,8 @@
 #pragma mark -
 #pragma mark View Lifecycle
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)init {
+//    [super viewDidLoad];
 	socket = [[AsyncSocket alloc] initWithDelegate:self];
 	[self connect];
 }
@@ -35,7 +35,7 @@
 #pragma mark -
 
 - (void)connect {
-	[socket connectToHost:@"codebanana.com" onPort:50007 error:nil];
+	[socket connectToHost:@"codebanana.com" onPort:50009 error:nil];
 }
 
 - (void)sendHTTPRequest {
@@ -96,10 +96,22 @@
 	 */
 	NSString *string = [[NSString alloc] initWithBytes:[data bytes] length:[data length] encoding:NSUTF8StringEncoding];
 	NSLog(@"Received Data (Tag: %i): %@", tag, string);
+    
+    NSString *trimmedString = [string stringByTrimmingCharactersInSet:
+                               [NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    
+    
+    NSURL *url = [NSURL URLWithString:trimmedString];
+    if( ![[UIApplication sharedApplication] openURL:url] )
+        NSLog(@"%@%@",@"Failed to open url:",[url description]);
+
+    
+    NSLog(@"should be opening url");
+    //openURL(string);
+    
 	[string release];
-	
+    
 	[self readWithTag:3];
-        
 }
 
 - (void)onSocket:(AsyncSocket *)sock didReadPartialDataOfLength:(CFIndex)partialLength tag:(long)tag {
@@ -115,7 +127,7 @@
 
 - (void)dealloc {
 	[socket release];
-	[super dealloc];
+//	[super dealloc];
 }
 
 @end

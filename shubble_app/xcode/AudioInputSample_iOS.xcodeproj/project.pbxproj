@@ -13,6 +13,11 @@
 		00CFDFE011384CC60091E310 /* AudioInputSampleApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 00CFDFDF11384CC60091E310 /* AudioInputSampleApp.mm */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		1F23D581155320F7006ABFA8 /* SocketTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D58015531C96006ABFA8 /* SocketTestViewController.m */; };
+		1F23D5821553211C006ABFA8 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D57A15531C96006ABFA8 /* AsyncSocket.m */; };
+		1F23D5831553211C006ABFA8 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D57C15531C96006ABFA8 /* AsyncUdpSocket.m */; };
+		1F23D58515532131006ABFA8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F23D58415532131006ABFA8 /* CFNetwork.framework */; };
+		1F23D5871553221B006ABFA8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F23D5861553221B006ABFA8 /* Default.png */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
 		C725DFFE121DAC7F00FA186B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C727C02B121B400300192073 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -29,6 +34,16 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* AudioInputSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioInputSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F23D57915531C96006ABFA8 /* AsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		1F23D57A15531C96006ABFA8 /* AsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		1F23D57B15531C96006ABFA8 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		1F23D57C15531C96006ABFA8 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		1F23D57D15531C96006ABFA8 /* SocketTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketTestAppDelegate.h; sourceTree = "<group>"; };
+		1F23D57E15531C96006ABFA8 /* SocketTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketTestAppDelegate.m; sourceTree = "<group>"; };
+		1F23D57F15531C96006ABFA8 /* SocketTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketTestViewController.h; sourceTree = "<group>"; };
+		1F23D58015531C96006ABFA8 /* SocketTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketTestViewController.m; sourceTree = "<group>"; };
+		1F23D58415532131006ABFA8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1F23D5861553221B006ABFA8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* AudioInputSample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioInputSample_Prefix.pch; sourceTree = "<group>"; };
@@ -44,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F23D58515532131006ABFA8 /* CFNetwork.framework in Frameworks */,
 				C725E001121DAC8F00FA186B /* AVFoundation.framework in Frameworks */,
 				C725DFFE121DAC7F00FA186B /* CoreMedia.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
@@ -64,6 +80,14 @@
 		00CFDFA7113848F40091E310 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1F23D57915531C96006ABFA8 /* AsyncSocket.h */,
+				1F23D57A15531C96006ABFA8 /* AsyncSocket.m */,
+				1F23D57B15531C96006ABFA8 /* AsyncUdpSocket.h */,
+				1F23D57C15531C96006ABFA8 /* AsyncUdpSocket.m */,
+				1F23D57D15531C96006ABFA8 /* SocketTestAppDelegate.h */,
+				1F23D57E15531C96006ABFA8 /* SocketTestAppDelegate.m */,
+				1F23D57F15531C96006ABFA8 /* SocketTestViewController.h */,
+				1F23D58015531C96006ABFA8 /* SocketTestViewController.m */,
 				00CFDFDF11384CC60091E310 /* AudioInputSampleApp.mm */,
 			);
 			name = Source;
@@ -87,6 +111,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1F23D5861553221B006ABFA8 /* Default.png */,
+				1F23D58415532131006ABFA8 /* CFNetwork.framework */,
 				00CFDFB81138492F0091E310 /* Headers */,
 				00CFDFA7113848F40091E310 /* Source */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -183,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F23D5871553221B006ABFA8 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F23D5821553211C006ABFA8 /* AsyncSocket.m in Sources */,
+				1F23D5831553211C006ABFA8 /* AsyncUdpSocket.m in Sources */,
+				1F23D581155320F7006ABFA8 /* SocketTestViewController.m in Sources */,
 				00CFDFE011384CC60091E310 /* AudioInputSampleApp.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,7 +275,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CINDER_PATH = /Users/Travis/Workspace/src_Cinder/;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Dawei Dooley (UGFHPKXZDE)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dawei Dooley (UGFHPKXZDE)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -253,8 +283,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				PROVISIONING_PROFILE = "2D3BBB0E-BCBC-43F2-848F-E72B775E9EF2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0B84949D-792F-4767-9AD5-93607F98D331";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" include";
 			};
@@ -265,14 +294,14 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CINDER_PATH = /Users/Travis/Workspace/src_Cinder/;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Dawei Dooley (UGFHPKXZDE)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dawei Dooley (UGFHPKXZDE)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				PROVISIONING_PROFILE = "2D3BBB0E-BCBC-43F2-848F-E72B775E9EF2";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0B84949D-792F-4767-9AD5-93607F98D331";
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" include";
