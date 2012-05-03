@@ -47,10 +47,8 @@
 }
 
 - (void)openShubbleRequest {
-    
     NSString *string =   [NSString stringWithFormat:@"%d \r\n", timeBetweenKnocks]; 
 	NSData *data = [string dataUsingEncoding:NSUTF8StringEncoding];
-	[string release];
 	
 	NSLog(@"Sending HTTP Request.");
 	[socket writeData:data withTimeout:-1 tag:1];

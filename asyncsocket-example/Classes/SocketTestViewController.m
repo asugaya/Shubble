@@ -24,6 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    timeBetweenKnocks = 10;
 	socket = [[AsyncSocket alloc] initWithDelegate:self];
 	[self connect];
     
@@ -38,7 +39,7 @@
 #pragma mark -
 
 - (void)connect {
-	[socket connectToHost:@"codebanana.com" onPort:50009 error:nil];
+	[socket connectToHost:@"codebanana.com" onPort:50001 error:nil];
 }
 
 - (void)sendHTTPRequest {
@@ -51,9 +52,9 @@
 }
 
 - (void)openShubbleRequest {
-    NSString *string =   [[NSString alloc] initWithString:@"open_shubble\r\n"];
+    NSString *string =   [NSString stringWithFormat:@"%d \r\n", timeBetweenKnocks]; 
 	NSData *data = [string dataUsingEncoding:NSUTF8StringEncoding];
-	[string release];
+
 	
 	NSLog(@"Sending HTTP Request.");
 	[socket writeData:data withTimeout:-1 tag:1];

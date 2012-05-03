@@ -12,6 +12,7 @@
 
 @interface SocketTestViewController : UIViewController {
 	AsyncSocket *socket;
+    int timeBetweenKnocks;
 }
 - (void) connectToShubble;
 
